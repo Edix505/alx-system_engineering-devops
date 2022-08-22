@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# display content of current dir
+
+for l in *; do
+	echo "$l" | cut -d '-' -f2
+done
