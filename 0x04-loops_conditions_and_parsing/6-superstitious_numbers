@@ -12,7 +12,7 @@ while [ $a -le 20 ]; do
 		echo -e "$a\nbad luck from Japan"
 		;;
 	17)
-		echo -e "ai\nbad luck from Italy"
+		echo -e "$a\nbad luck from Italy"
 		;;
 	*)
 		echo "$a"
